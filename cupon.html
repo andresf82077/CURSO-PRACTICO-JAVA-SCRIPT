@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa para calcular descuento con cupones</title>
+</head>
+<body>
+
+    <header>
+        <h1>PANTALLA PARA CALCULAR DESCUENTO CON CUPONES</h1>
+        <h2>Por Favor complete la informacion</h2>
+    </header>
+ 
+    <section>
+        <form>
+
+            <label for="InputCompra">Ingrese el valor de la compra</label> 
+            <input id="InputCompra" type="number"/>
+     
+            <label for="InputCupon">Ingrese el numero del cupon</label>
+            <input id = "InputCupon" type="number"/>
+     
+            <button type="button"  onclick= "calculoDescuento()">Calcular Descuento</button>
+
+            <p id="ResultP"></p>
+            <p id = "ResultP2"></p>
+     
+         </form>
+    </section>
+    <script src="./cupon.js"></script>
+
+    
+</body>
+</html>
